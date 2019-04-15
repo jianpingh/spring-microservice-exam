@@ -4,9 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.tangyi</groupId>
+    <groupId>com.github.huangjianping</groupId>
     <artifactId>spring-microservice-exam</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>common</module>
+        <module>config-service</module>
+        <module>gateway-service</module>
+        <module>service-api</module>
+        <module>service-api-impl</module>
+        <module>monitor-service</module>
+        <module>zipkin-service</module>
+    </modules>
 
 
 </project>
