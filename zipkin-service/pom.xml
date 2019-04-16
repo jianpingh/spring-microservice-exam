@@ -10,6 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>zipkin-service</artifactId>
-
+    <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
+    <description>zipkin监控服务</description>
 
 </project>
